@@ -241,7 +241,7 @@ export interface ReactJkMusicPlayerProps {
 
 export function ReactJkMusicPlayerFunc(
   props: ReactJkMusicPlayerProps,
-): React.PureComponent {}
+): JSX.Element
 
 export default class ReactJkMusicPlayer extends React.PureComponent<
   ReactJkMusicPlayerProps,
