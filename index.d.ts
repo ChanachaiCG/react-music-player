@@ -47,6 +47,7 @@ export interface ReactJkMusicPlayerInstance extends HTMLAudioElement {
   playPrev?: () => void
   togglePlay?: () => void
   clear?: () => void
+  getDeleteAudio?: () => [any, (audioID: string) => () => void]
   sortable?: any
 }
 
@@ -237,6 +238,10 @@ export interface ReactJkMusicPlayerProps {
   restartCurrentOnPrev?: boolean
   sortableOptions?: object
 }
+
+export function ReactJkMusicPlayerFunc(
+  props: ReactJkMusicPlayerProps,
+): React.PureComponent {}
 
 export default class ReactJkMusicPlayer extends React.PureComponent<
   ReactJkMusicPlayerProps,
