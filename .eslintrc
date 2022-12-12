@@ -18,6 +18,7 @@
         "allow": ["error"]
       }
     ],
+    "react/no-this-in-sfc": 0,
     "react/display-name": 0,
     "react/jsx-filename-extension": 0,
     "react/jsx-props-no-spreading": 0,
