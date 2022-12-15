@@ -2188,6 +2188,10 @@ export default class ReactJkMusicPlayer extends PureComponent {
         value: this.getDeleteAudio,
       },
       {
+        name: 'unsafeInstance',
+        value: () => this,
+      },
+      {
         name: 'sortable',
         value: this.sortable,
       },

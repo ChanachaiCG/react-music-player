@@ -48,6 +48,7 @@ export interface ReactJkMusicPlayerInstance extends HTMLAudioElement {
   togglePlay?: () => void
   clear?: () => void
   getDeleteAudio?: () => [any, (audioID: string) => () => void]
+  unsafeInstance: () => any
   sortable?: any
 }
 
